@@ -5,6 +5,7 @@ public class Main {
         Orange orange1 = new Orange();
         orange1.addPrice(100);
         System.out.println("Total cost: " + Orange.orangePrice);
+        System.out.println("Fix: Total cost: " + Orange.orangePrice);
     }
 
     public static class Orange {
